@@ -1,0 +1,14 @@
+# Buildroot
+.stamp*
+# manual builds
+Debug*/
+Release*/
+# CMake
+/CMakeCache.txt
+CMakeFiles/
+/CPackConfig.cmake
+/CPackSourceConfig.cmake
+cmake_install.cmake
+/Makefile
+/install_manifest.txt
+*ninja*
